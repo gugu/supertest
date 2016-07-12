@@ -8,7 +8,7 @@
     "test": "eslint lib/**/*.js test/**/*.js && mocha --require should --reporter spec --check-leaks"
   },
   "dependencies": {
-    "superagent": "^1.7.2",
+    "superagent": "https://github.com/visionmedia/superagent/archive/84da7c8d50a83badd5a88598b150664ca2fe9971.tar.gz",
     "methods": "1.x"
   },
   "devDependencies": {
